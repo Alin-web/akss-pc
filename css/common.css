@@ -1,0 +1,122 @@
+.box {
+  z-index: 66;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav .leftName {
+  margin-top: 24px;
+}
+.nav .leftName .logo {
+  display: block;
+  width: 200px;
+  height: 46px;
+  background: url('../img/logo_blue.png') repeat-x center;
+}
+.nav .rightLi {
+  margin-top: 24px;
+}
+.nav .rightLi .lis {
+  margin-top: 14px;
+  float: left;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 500;
+  line-height: 14px;
+  padding: 0 20px;
+  position: relative;
+}
+.nav .rightLi .lis a {
+  display: block;
+  font-size: 14px;
+  color: #000;
+  height: 14px;
+  padding: 0 0 5px 0;
+}
+.nav .rightLi .lis .adda {
+  border-bottom: 3px solid #000;
+}
+.nav .rightLi .lis .adds {
+  border-bottom: 3px solid #000;
+}
+.nav .rightLi .lis a::after {
+  display: block;
+  height: 20px;
+  content: '';
+}
+.nav .rightLi .lis ul {
+  position: absolute;
+  display: none;
+  width: 150px;
+  margin-top: 10px;
+  background: #ECECEC;
+}
+.nav .rightLi .lis ul li a {
+  display: block;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  line-height: 14px;
+  padding: 18px 20px;
+  color: #000;
+}
+.nav .rightLi .lis ul li a:hover {
+  color: #0080FF;
+  background-color: #fff;
+}
+.nav .rightLi .last {
+  padding: 0 0 0 20px;
+}
+.fbox {
+  width: 100%;
+  margin-top: 80px;
+  background: #F3F5FA;
+  position: relative;
+}
+.fbox .sonbox {
+  display: flex;
+  justify-content: space-around;
+}
+.fbox .sonbox .item:nth-child(1) {
+  margin-left: 0;
+}
+.fbox .sonbox .item {
+  margin-bottom: 143px;
+  margin-left: 90px;
+  width: 84px;
+  margin-top: 50px;
+}
+.fbox .sonbox .item h3 a {
+  font-weight: 700;
+  font-size: 16px;
+  color: #3A3A3C;
+}
+.fbox .sonbox .item ul {
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #3A3A3C;
+  line-height: 30px;
+}
+.fbox .sonbox .item ul a {
+  color: #3A3A3C;
+}
+.fbox .lbox {
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+  transform: translate(-50%);
+}
+.fbox .lbox .log {
+  width: 264px;
+  float: right;
+}
+.fbox .lbox .log p {
+  font-size: 12px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #8E8E93;
+  line-height: 22px;
+}

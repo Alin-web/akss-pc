@@ -1,0 +1,80 @@
+.logobox {
+  height: 400px;
+  background: url('../img/bg3.png') no-repeat center;
+}
+.box {
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  top: 0%;
+}
+.titles h1 {
+  font-size: 34px;
+  font-weight: 800;
+  text-align: center;
+  margin: 50px auto;
+}
+.titles .content p {
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #3A3A3C;
+  line-height: 28px;
+}
+.friend_cooperation .friend {
+  height: 53px;
+  text-align: center;
+}
+.friend_cooperation .friend h1 {
+  font-size: 34px;
+  font-weight: 800;
+  text-align: center;
+  margin: 50px auto;
+}
+.friend_cooperation .cooperation {
+  display: block;
+  margin: 0 auto;
+}
+.advantage {
+  overflow: hidden;
+}
+.advantage .hzys h1 {
+  font-size: 34px;
+  font-weight: 800;
+  text-align: center;
+  margin: 50px auto;
+}
+.advantage .bg {
+  display: flex;
+  justify-content: space-between;
+}
+.advantage .bg div {
+  width: 390px;
+  height: 158px;
+}
+.advantage .bg div p {
+  margin-top: 25px;
+  padding: 0 40px 0 25px ;
+}
+.advantage .bg div p:nth-child(1) {
+  font-size: 16px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 16px;
+}
+.advantage .bg div p:nth-child(2) {
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  color: #FFFFFF;
+  line-height: 24px;
+}
+.advantage .bg div:nth-child(1) {
+  background: url('../img/bg_blue.png') no-repeat center;
+}
+.advantage .bg div:nth-child(2) {
+  background: url('../img/bg_yellow.png') no-repeat center;
+}
+.advantage .bg div:nth-child(3) {
+  background: url('../img/bg_green.png') no-repeat center;
+}

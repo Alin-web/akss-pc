@@ -1,0 +1,101 @@
+.logobox {
+  height: 400px;
+  background: url('../img/bglx.png') no-repeat center;
+}
+.box {
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  top: 0%;
+}
+.advantage {
+  overflow: hidden;
+}
+.advantage .hzys h1 {
+  font-size: 34px;
+  font-weight: 800;
+  text-align: center;
+  margin: 50px auto;
+}
+.advantage .with {
+  width: 1000px;
+  margin: 0 auto;
+}
+.advantage .recruit h1 {
+  height: 20px;
+  font-size: 20px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 900;
+  color: #3A3A3C;
+  line-height: 20px;
+}
+.advantage .recruit .info {
+  margin-top: 20px;
+}
+.advantage .recruit .info h2 {
+  font-size: 14px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 600;
+  color: #3A3A3C;
+  line-height: 28px;
+}
+.advantage .recruit .info li {
+  font-size: 14px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 400;
+  color: #3A3A3C;
+  line-height: 28px;
+}
+.advantage .recruit .info li span {
+  color: #0080FF;
+}
+.advantage .recruit .info p {
+  margin-top: 20px;
+}
+.advantage .kernel h1 {
+  font-size: 34px;
+  font-weight: 800;
+  text-align: center;
+  margin: 50px auto;
+}
+.advantage .kernel .values {
+  width: 1000px;
+  margin: 0 auto;
+}
+.advantage .kernel .values .bgsize {
+  width: 480px;
+  height: 175px;
+}
+.advantage .kernel .values .flex_div {
+  display: flex;
+  justify-content: space-between;
+}
+.advantage .kernel .values .flex_div .com .kernel_content {
+  padding: 25px 0 0 30px;
+}
+.advantage .kernel .values .flex_div .com .kernel_content .kernel_tit {
+  height: 20px;
+  font-size: 20px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #0080FF;
+  line-height: 20px;
+}
+.advantage .kernel .values .flex_div .com .kernel_content p {
+  margin-top: 15px;
+  height: 30px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #3A3A3C;
+  line-height: 30px;
+}
+.advantage .kernel .values .flex_div .com .kernel_content .restp {
+  margin-top: 0;
+}
+.advantage .kernel .values .bz1 .cheng {
+  background: #F9FAFC;
+}
+.advantage .kernel .values .bz1 .ming {
+  background: #F9FAFC;
+}

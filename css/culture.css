@@ -1,0 +1,100 @@
+.logobox {
+  height: 400px;
+  background: url('../img/enterprise/编组\ 2.png') no-repeat center;
+}
+.box {
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  top: 0%;
+}
+.advantage {
+  overflow: hidden;
+}
+.advantage .hzys h1 {
+  font-size: 34px;
+  font-weight: 800;
+  text-align: center;
+  margin: 50px auto;
+}
+.advantage .hzys .content {
+  width: 1000px;
+  margin: 0 auto;
+}
+.advantage .hzys .content .tit {
+  height: 20px;
+  font-size: 20px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  color: #3A3A3C;
+  line-height: 20px;
+  margin-top: 20px;
+  font-weight: 800;
+}
+.advantage .hzys .content .tit span {
+  color: blue;
+}
+.advantage .hzys .content .cont {
+  height: 28px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #3A3A3C;
+  line-height: 28px;
+  margin-top: 10px;
+}
+.advantage .kernel h1 {
+  font-size: 34px;
+  font-weight: 800;
+  text-align: center;
+  margin: 50px auto;
+}
+.advantage .kernel .values {
+  width: 1000px;
+  margin: 0 auto;
+}
+.advantage .kernel .values .bgsize {
+  width: 480px;
+  height: 175px;
+}
+.advantage .kernel .values .flex_div {
+  display: flex;
+  justify-content: space-between;
+}
+.advantage .kernel .values .flex_div .com .kernel_content {
+  padding: 25px 0 0 30px;
+}
+.advantage .kernel .values .flex_div .com .kernel_content .kernel_tit {
+  height: 20px;
+  font-size: 20px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #0080FF;
+  line-height: 20px;
+}
+.advantage .kernel .values .flex_div .com .kernel_content p {
+  margin-top: 15px;
+  height: 30px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #3A3A3C;
+  line-height: 30px;
+}
+.advantage .kernel .values .flex_div .com .kernel_content .restp {
+  margin-top: 0;
+}
+.advantage .kernel .values .bz1 .cheng {
+  background: url('../img/enterprise/编组.png') no-repeat center;
+}
+.advantage .kernel .values .bz1 .ming {
+  background: url('../img/enterprise/编组\ 3.png') no-repeat center;
+}
+.advantage .kernel .values .bz2 {
+  margin-top: 40px;
+}
+.advantage .kernel .values .bz2 .people {
+  background: url('../img/enterprise/编组\ 4.png') no-repeat center;
+}
+.advantage .kernel .values .bz2 .ttrue {
+  background: url('../img/enterprise/编组\ 5.png') no-repeat center;
+}

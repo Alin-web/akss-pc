@@ -1,0 +1,441 @@
+.boxs {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  background-color: '';
+  z-index: 99;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+}
+.nav .leftName {
+  margin-top: 24px;
+}
+.nav .leftName .logo {
+  display: block;
+  width: 200px;
+  height: 46px;
+  background: url('../img/logo.png') repeat center;
+}
+.nav .leftName .logos {
+  display: block;
+  width: 200px;
+  height: 46px;
+  background: url('../img/logo_blue.png') repeat center;
+}
+.nav .rightLi {
+  margin-top: 24px;
+}
+.nav .rightLi .lis {
+  margin-top: 14px;
+  float: left;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 500;
+  line-height: 14px;
+  padding: 0 20px;
+  position: relative;
+}
+.nav .rightLi .lis .lis_a {
+  display: block;
+  font-size: 14px;
+  color: #fff;
+  height: 14px;
+  padding: 0 0 5px 0;
+}
+.nav .rightLi .lis .ax {
+  display: block;
+  font-size: 14px;
+  color: #000;
+  height: 14px;
+  padding: 0 0 5px 0;
+}
+.nav .rightLi .lis .adda {
+  border-bottom: 3px solid #fff;
+}
+.nav .rightLi .lis .adds {
+  border-bottom: 3px solid #fff;
+}
+.nav .rightLi .lis .addblock {
+  border-bottom: 3px solid #000;
+}
+.nav .rightLi .lis .addblock1 {
+  border-bottom: 3px solid #000;
+}
+.nav .rightLi .lis a::after {
+  display: block;
+  height: 20px;
+  content: '';
+}
+.nav .rightLi .lis ul {
+  position: absolute;
+  display: none;
+  width: 150px;
+  margin-top: 10px;
+  background: #ECECEC;
+  /* box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+                opacity: 0.9; */
+}
+.nav .rightLi .lis ul li a {
+  display: block;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  padding: 20px  0  0 20px;
+  line-height: 14px;
+  color: #000;
+}
+.nav .rightLi .lis ul li a:hover {
+  color: #0080FF;
+  background-color: #fff;
+}
+.nav .rightLi .last {
+  padding: 0 0 0 20px;
+}
+.bgImg {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 750px;
+  background: url(../img/akss.png) no-repeat center;
+  z-index: -10;
+}
+.bgImg .company_purpose {
+  width: 774px;
+  height: 100px;
+  background: url('../img/编组\ 6.png') repeat center;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.bgImg .company_purpose .describe {
+  width: 100%;
+  height: 52px;
+  font-size: 16px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 26px;
+  position: absolute;
+  bottom: -70px;
+}
+.bgImg .company_purpose .describe #span1 {
+  display: block;
+}
+.bgImg .next {
+  width: 34px;
+  height: 34px;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  background: url('../img/编组.png') no-repeat;
+  background-position: 8px,8px;
+  z-index: 10;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.product .kinds {
+  width: 461px;
+  height: 53px;
+  margin: 20px auto;
+  background: url('../img/index／title.png') no-repeat center;
+}
+.product .jhb {
+  /* border: 1px solid #fff; */
+  overflow: hidden;
+  /* 解决外边距塌陷问题 设置边框或者添加 overflow: hidden */
+  height: 550px;
+  background: url('../img/矩形.png') no-repeat center;
+  z-index: -1;
+}
+.product .jhb .jhbleft {
+  margin-top: 110px;
+}
+.product .jhb .jhbleft h1 {
+  margin: 16px 0 20px 0;
+  font-size: 24px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #222226;
+  line-height: 24px;
+}
+.product .jhb .jhbleft .introduce {
+  width: 460px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #757580;
+  line-height: 28px;
+}
+.product .jhb .jhbleft .but {
+  display: flex;
+  margin-top: 20px;
+}
+.product .jhb .jhbleft .but .fatherbox {
+  position: relative;
+}
+.product .jhb .jhbleft .but .fatherbox a {
+  display: flex;
+  width: 142px;
+  height: 42px;
+  border: 1px solid #0080FF;
+  line-height: 42px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #0080FF;
+}
+.product .jhb .jhbleft .but .fatherbox a span {
+  margin-left: 34px;
+}
+.product .jhb .jhbleft .but .fatherbox a i {
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin: auto 10px ;
+  background: url('../img/编组蓝色二维码.png') no-repeat center;
+}
+.product .jhb .jhbleft .but .fatherbox .ewmimg {
+  display: none;
+  position: absolute;
+  top: -30px;
+  right: -120px;
+  z-index: 10;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.15);
+  padding: 10px ;
+  font-size: 12px;
+  text-align: center;
+}
+.product .jhb .jhbleft .but .fatherbox:hover {
+  background-color: #0080FF;
+}
+.product .jhb .jhbleft .but .fatherbox:hover a {
+  color: #fff;
+}
+.product .jhb .jhbleft .but .fatherbox:hover i {
+  background: url('../img/编组(1).png') no-repeat center;
+}
+.product .jhb .jhbleft .but .fatherbox:hover .ewmimg {
+  display: block;
+}
+.product .jhb .jhbleft .but .fatherbox:nth-child(2) {
+  margin-left: 15px;
+}
+.product .lxb {
+  height: 550px;
+  background: url('../img/矩形备份 12.png') no-repeat center;
+  z-index: -1;
+}
+.product .lxb .lxbright .right {
+  margin-top: 110px;
+  width: 450px;
+  float: right;
+}
+.product .lxb .lxbright .right h1 {
+  margin: 16px 0 20px 0;
+  font-size: 24px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #222226;
+  line-height: 24px;
+}
+.product .lxb .lxbright .right .introduce {
+  width: 460px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #757580;
+  line-height: 28px;
+}
+.product .lxb .lxbright .right .but {
+  display: flex;
+  margin-top: 20px;
+}
+.product .lxb .lxbright .right .but .fatherbox {
+  position: relative;
+}
+.product .lxb .lxbright .right .but .fatherbox a {
+  display: flex;
+  width: 142px;
+  height: 42px;
+  border: 1px solid #0080FF;
+  line-height: 42px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #0080FF;
+}
+.product .lxb .lxbright .right .but .fatherbox a span {
+  margin-left: 34px;
+}
+.product .lxb .lxbright .right .but .fatherbox a i {
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin: auto 10px ;
+  background: url('../img/编组蓝色二维码.png') no-repeat center;
+}
+.product .lxb .lxbright .right .but .fatherbox .ewmimg {
+  display: none;
+  position: absolute;
+  top: -30px;
+  right: -120px;
+  z-index: 10;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.15);
+  padding: 10px ;
+  font-size: 12px;
+  text-align: center;
+}
+.product .lxb .lxbright .right .but .fatherbox:hover {
+  background-color: #0080FF;
+}
+.product .lxb .lxbright .right .but .fatherbox:hover a {
+  color: #fff;
+}
+.product .lxb .lxbright .right .but .fatherbox:hover i {
+  background: url('../img/编组(1).png') no-repeat center;
+}
+.product .lxb .lxbright .right .but .fatherbox:hover .ewmimg {
+  display: block;
+}
+.product .lxb .lxbright .right .but .fatherbox:nth-child(2) {
+  margin-left: 15px;
+}
+.product .zjlm {
+  border: 1px solid #fff;
+  height: 550px;
+  background: url('../img/矩形备份 13.png') no-repeat center;
+  z-index: -1;
+}
+.product .zjlm .zjlmleft {
+  margin-top: 110px;
+}
+.product .zjlm .zjlmleft h1 {
+  margin: 16px 0 20px 0;
+  font-size: 24px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #222226;
+  line-height: 24px;
+}
+.product .zjlm .zjlmleft .introduce {
+  width: 460px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #757580;
+  line-height: 28px;
+}
+.product .zjlm .zjlmleft .but {
+  display: flex;
+  margin-top: 20px;
+}
+.product .zjlm .zjlmleft .but .fatherbox {
+  position: relative;
+}
+.product .zjlm .zjlmleft .but .fatherbox a {
+  display: flex;
+  width: 142px;
+  height: 42px;
+  border: 1px solid #0080FF;
+  line-height: 42px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #0080FF;
+}
+.product .zjlm .zjlmleft .but .fatherbox a span {
+  margin-left: 34px;
+}
+.product .zjlm .zjlmleft .but .fatherbox a i {
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin: auto 10px ;
+  background: url('../img/编组(3).png') no-repeat center;
+}
+.product .zjlm .zjlmleft .but .fatherbox:hover {
+  background-color: #0080FF;
+}
+.product .zjlm .zjlmleft .but .fatherbox:hover a {
+  color: #fff;
+}
+.product .zjlm .zjlmleft .but .fatherbox:hover i {
+  background: url('../img/编组(4).png') no-repeat center;
+}
+.product .zjlm .zjlmleft .but .fatherbox:hover .ewmimg {
+  display: block;
+}
+.friend_cooperation {
+  background: #FFFFFF;
+}
+.friend_cooperation .friend {
+  height: 53px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  background: url('../img/index／title备份.png') no-repeat center;
+}
+.friend_cooperation .cooperation {
+  display: block;
+  margin: 0 auto;
+}
+.fbox {
+  width: 100%;
+  margin-top: 80px;
+  background: #F3F5FA;
+  position: relative;
+}
+.fbox .sonbox {
+  display: flex;
+  justify-content: space-around;
+}
+.fbox .sonbox .item:nth-child(1) {
+  margin-left: 0;
+}
+.fbox .sonbox .item {
+  margin-bottom: 143px;
+  margin-left: 90px;
+  width: 84px;
+  margin-top: 50px;
+}
+.fbox .sonbox .item h3 a {
+  font-weight: 700;
+  font-size: 16px;
+  color: #3A3A3C;
+}
+.fbox .sonbox .item ul {
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  line-height: 30px;
+}
+.fbox .sonbox .item ul a {
+  color: #3A3A3C;
+}
+.fbox .lbox {
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+  transform: translate(-50%);
+}
+.fbox .lbox .log {
+  width: 264px;
+  float: right;
+}
+.fbox .lbox .log p {
+  font-size: 12px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #8E8E93;
+  line-height: 22px;
+}

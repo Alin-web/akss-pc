@@ -1,0 +1,333 @@
+.logobox{
+    height: 400px;
+    background: url('../img/bg4.png') no-repeat center; 
+    
+}
+.box{
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    top: 0%;
+}
+// 绝对定位
+
+// bgImg
+.bgImg{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 750px;
+    background: url(../img/akss.png) no-repeat center;
+    z-index: -10;
+    .company_purpose{
+        width: 774px;
+        height: 100px;
+        background: url('../img/编组\ 6.png') repeat center;
+        position: absolute;
+        top: 46%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        .describe{
+            width: 100%;
+            height: 52px;
+            font-size: 16px;
+            font-family: PingFangSC-Medium, PingFang SC;
+            font-weight: 500;
+            color: #FFFFFF;
+            line-height: 26px;
+            position: absolute;
+            bottom: -70px;
+            #span1{
+                display: block;
+            }
+        }
+    }
+    .next{
+      
+        width: 34px;
+        height: 34px;
+        border: 1px solid #FFFFFF;
+        border-radius: 50%;
+        background: url('../img/编组.png') no-repeat ;
+        background-position: 8px,8px;
+        
+        position: absolute;
+        bottom: 100px;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+    
+}
+// 产品矩阵
+.product{
+    .kinds{
+        width: 461px;
+        height: 53px;
+        margin: 20px auto;
+        background: url('../img/index／title.png') no-repeat center;
+       
+    }
+    //进货宝
+    .jhb{
+        /* border: 1px solid #fff; */
+        overflow: hidden;
+        /* 解决外边距塌陷问题 设置边框或者添加 overflow: hidden */
+        height: 550px;
+        background: url('../img/矩形.png') no-repeat center;
+        z-index: -1;
+        .jhbleft{
+            margin-top: 110px;
+            h1{
+                margin: 16px 0 20px 0;
+                font-size: 24px;
+                font-family: PingFangSC-Medium, PingFang SC;
+                font-weight: 500;
+                color: #222226;
+                line-height: 24px;
+            }
+            .introduce{
+                width: 460px;
+                font-size: 14px;
+                font-family: PingFangSC-Regular, PingFang SC;
+                font-weight: 400;
+                color: #757580;
+                line-height: 28px;
+            }
+            .but{
+                display: flex;
+                margin-top: 20px;
+                .fatherbox{
+                    position: relative;
+                    a{
+                        display: flex;
+                        width: 142px;
+                        height: 42px;
+                        
+                        border: 1px solid #0080FF;
+                        line-height: 42px;
+                        font-size: 14px;
+                        font-family: PingFangSC-Regular, PingFang SC;
+                        font-weight: 400;
+                        color: #0080FF;
+                        span{
+                            margin-left: 34px;
+                        }
+                        i{  
+                            display: block;
+                            width: 18px;
+                            height: 18px;
+                            margin: auto 10px ;
+                            background: url('../img/编组蓝色二维码.png') no-repeat center; 
+                            
+                        }
+                    }
+                    .ewmimg{
+                        display: none;
+                        position: absolute;
+                        top: -30px;
+                        right: -120px;
+                        z-index: 10;
+                        background: #FFFFFF;
+                        box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.15);
+                        padding: 10px ;
+                        font-size: 12px;
+                        text-align: center;
+                        
+                    }
+                }
+                .fatherbox:hover{
+                    background-color: #0080FF;
+                    a{
+                        color: #fff;
+                    }
+                    i{
+                        background: url('../img/编组(1).png') no-repeat center; 
+                    }
+                    .ewmimg{
+                        display: block;
+                    }
+                }
+                .fatherbox:nth-child(2){
+                    margin-left: 15px;
+                } 
+            }
+        }
+    }
+    // 拉新宝
+    .lxb{
+        
+        height: 550px;
+        background: url('../img/矩形备份 12.png') no-repeat center;
+        z-index: -1;
+        .lxbright{
+            .right{
+                margin-top: 110px;
+                width: 450px;
+                float: right;
+                h1{
+                    margin: 16px 0 20px 0;
+                    font-size: 24px;
+                    font-family: PingFangSC-Medium, PingFang SC;
+                    font-weight: 500;
+                    color: #222226;
+                    line-height: 24px;
+                }
+                .introduce{
+                    width: 460px;
+                    font-size: 14px;
+                    font-family: PingFangSC-Regular, PingFang SC;
+                    font-weight: 400;
+                    color: #757580;
+                    line-height: 28px;
+                }
+               .but{
+                    display: flex;
+                    margin-top: 20px;
+                    .fatherbox{
+                        position: relative;
+                        a{
+                            display: flex;
+                            width: 142px;
+                            height: 42px;
+                            
+                            border: 1px solid #0080FF;
+                            line-height: 42px;
+                            font-size: 14px;
+                            font-family: PingFangSC-Regular, PingFang SC;
+                            font-weight: 400;
+                            color: #0080FF;
+                            span{
+                                margin-left: 34px;
+                            }
+                            i{  
+                                display: block;
+                                width: 18px;
+                                height: 18px;
+                                margin: auto 10px ;
+                                background: url('../img/编组蓝色二维码.png') no-repeat center; 
+                                
+                            }
+                        }
+                        .ewmimg{
+                            display: none;
+                            position: absolute;
+                            top: -30px;
+                            right: -120px;
+                            z-index: 10;
+                            background: #FFFFFF;
+                            box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.15);
+                            padding: 10px ;
+                            font-size: 12px;
+                            text-align: center;
+                        }
+                    }
+                    .fatherbox:hover{
+                        background-color: #0080FF;
+                        a{
+                            color: #fff;
+                        }
+                        i{
+                            background: url('../img/编组(1).png') no-repeat center; 
+                        }
+                        .ewmimg{
+                            display: block;
+                        }
+                    }
+                    .fatherbox:nth-child(2){
+                        margin-left: 15px;
+                    } 
+                }
+            }
+        }
+    }
+    // 装机联盟
+    .zjlm{
+        border: 1px solid #fff;
+        height: 550px;
+        background: url('../img/矩形备份 13.png') no-repeat center;
+        z-index: -1;
+        
+        .zjlmleft{
+            
+            margin-top: 110px;
+            h1{
+                margin: 16px 0 20px 0;
+                font-size: 24px;
+                font-family: PingFangSC-Medium, PingFang SC;
+                font-weight: 500;
+                color: #222226;
+                line-height: 24px;
+            }
+            .introduce{
+                width: 460px;
+                
+                font-size: 14px;
+                font-family: PingFangSC-Regular, PingFang SC;
+                font-weight: 400;
+                color: #757580;
+                line-height: 28px;
+            }
+            .but{
+                display: flex;
+                margin-top: 20px;
+                .fatherbox{
+                    position: relative;
+                    a{
+                        display: flex;
+                        width: 142px;
+                        height: 42px;
+                        
+                        border: 1px solid #0080FF;
+                        line-height: 42px;
+                        font-size: 14px;
+                        font-family: PingFangSC-Regular, PingFang SC;
+                        font-weight: 400;
+                        color: #0080FF;
+                        span{
+                            margin-left: 34px;
+                        }
+                        i{  
+                            display: block;
+                            width: 18px;
+                            height: 18px;
+                            margin: auto 10px ;
+                            background: url('../img/编组(3).png') no-repeat center; 
+                            
+                        }
+                    }
+                }
+                .fatherbox:hover{
+                    background-color: #0080FF;
+                    a{
+                        color: #fff;
+                    }
+                    i{
+                        background: url('../img/编组(4).png') no-repeat center; 
+                    }
+                    .ewmimg{
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+.friend_cooperation{
+    
+    background: #FFFFFF;
+        //friend 合作伙伴
+        .friend{
+            height: 53px;
+            margin: 0 auto;
+            margin-top: 40px;
+            margin-bottom: 30px;
+            background: url('../img/index／title备份.png') no-repeat center;
+        }
+        .cooperation{
+            display: block;
+            margin: 0 auto;
+        }
+        
+}

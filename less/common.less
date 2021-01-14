@@ -1,0 +1,141 @@
+// 绝对定位
+.box{
+    z-index: 66;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    .leftName{
+        margin-top: 24px;
+        .logo{
+            display: block;
+            width: 200px;
+            height: 46px;
+            background: url('../img/logo_blue.png') repeat-x center ;
+        }
+    }
+    .rightLi{
+        margin-top: 24px;
+        .lis{
+            margin-top: 14px;
+            float: left;
+            font-size: 14px;
+            font-family: PingFangSC-Regular, PingFang SC;
+            font-weight: 500;
+            line-height: 14px;
+            padding: 0 20px;
+            position: relative; 
+            a{
+                display: block;
+                font-size: 14px;
+                color: #000;
+                height: 14px;
+                padding: 0 0 5px 0;
+            }
+            .adda{
+                border-bottom: 3px solid #000;
+            }
+            .adds{
+                border-bottom: 3px solid #000;
+            }
+            a::after{
+                display: block;
+                height: 20px;
+                content: '';
+            }
+            ul{
+                position: absolute;
+                display: none;
+                width: 150px;
+                margin-top: 10px;
+                background: #ECECEC;
+               
+                
+
+                li{
+                    a{
+                        display: block;
+                        font-size: 14px;
+                        font-family: PingFangSC-Regular, PingFang SC;
+                        line-height: 14px;
+                        padding: 18px 20px;
+                        color: #000; 
+                        
+                    }
+                    a:hover{
+                        color: #0080FF;
+                        background-color: #fff;
+                    }
+                    
+                }
+                
+                
+            }
+        }
+        .last{
+            padding: 0 0 0 20px;
+        }
+    }
+}
+.fbox{
+    width: 100%;
+    margin-top: 80px;
+    background: #F3F5FA;
+   
+    position: relative;
+    .sonbox{
+        display: flex;
+        justify-content: space-around;
+        
+        .item:nth-child(1){
+            margin-left: 0;
+        }
+        .item{
+            margin-bottom: 143px;
+            margin-left: 90px;
+            width: 84px;
+            margin-top: 50px;
+            h3{
+                a{
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: #3A3A3C;
+                }
+            }
+            ul{
+                margin-top: 20px;
+                font-size: 14px;
+                font-family: PingFangSC-Regular, PingFang SC;
+                font-weight: 400;
+                color: #3A3A3C;
+                line-height: 30px;
+                a{
+                    color: #3A3A3C;
+                }
+            }
+        }
+        
+    }
+    .lbox{
+        overflow: hidden;
+        position: absolute;
+        left: 50%;
+        bottom: 50px;
+        transform: translate(-50%);
+        
+        .log{
+            width: 264px; 
+           
+            float: right;
+        p{
+            
+            font-size: 12px;
+            font-family: PingFangSC-Regular, PingFang SC;
+            font-weight: 400;
+            color: #8E8E93;
+            line-height: 22px;
+        }
+        }
+        
+    }
+}
